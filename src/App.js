@@ -11,7 +11,7 @@ function App() {
             date: '15/04/2022'
         }
     ]
-    const [notes, setNotes]             = useState([]);
+    const [notes, setNotes]             = useState([data]);
     const [searchText, setSearchText]   = useState('');
     const [darkMode, setDarkMode]       = useState(false);
 
